@@ -20,7 +20,7 @@ all the videos side by side */
     display: block;
     overflow: hidden;
     height: auto;
-    width: auto;
+    width: 885px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -30,8 +30,9 @@ all the videos side by side */
 user clicks next/prev */
 #videos {
     display: flex;
-    width: auto;
+    width: fit-content;
     height: auto;
+
 }
 
 /* Next button for the video player */

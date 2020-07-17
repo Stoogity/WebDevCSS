@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js" defer></script> 
+</head>
+<body>
+    <!-- This container holds everything within the body -->
+    <div id="mainContainer">
+        <div id="header">
+            Playing with CSS
+            <br>
+            This page will also offer calisthenic training for rock climbing, 
+            plus a video of training on a crack machine
+        </div>
+        <div id="videoContainer">
+            <div id="videos">
+                <video id="crack" src="./videos/crack.mov" height=500px width=auto controls></video>
+                <video id="T" src="./videos/T.mov" height=500px width=auto controls></video>
+                <video id="Y" src="./videos/Y.mov" height=500px width=auto controls></video>
+                <video id="clock" src="./videos/clock.mov" height=500px width=auto controls></video>
+                <video id="Raise" src="./videos/Raise1.mov" height=500px width=auto controls></video>
+            </div>
+        </div>
+        <!-- Tried unsuccessfully to color lower portion background with this container -->
+        <div id="lower">
+        <!-- buttons for carousel -->
+        <button id="prev">Previous</button>
+        <button id="next">Next</button>
+        <!-- Creates a container for text explanation of videos -->
+        <div id="infoContainer">
+            <!-- Uses p tag for text, changes text with button click (via JS) -->
+            <p id="explain">With this kind of crack, referred to as a handcrack, the climber ascends by flattening their hand and tucking the thumb into the palm to make the hand a little thicker. This allows the climber to get their hand temporarily stuck in the crack. As for the feet, the climber turns the knee out to make the foot thinner, then slots their foot into the crack before twisting the knee back inward. This creates a base for the climber to stand on. In this case, the same technique is applied but only in order to take weight off of the hands and give the climber something to push off of.</p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

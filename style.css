@@ -20,7 +20,7 @@ all the videos side by side */
     display: block;
     overflow: hidden;
     height: auto;
-    width: 880px;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
     position: relative;
